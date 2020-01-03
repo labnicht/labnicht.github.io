@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- import css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" href="assets/slick/css/grid.css">
+    <link rel="stylesheet" href="assets/slick/css/theme.css">
+
+    <title>SPM-GRUPPE.DE - HOME</title>
+
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">Neuigkeiten</a></li>
+            <li><a href="#">Projekte</a></li>
+            <li><a href="#">Mitmachen</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li class="login-nav" style="float: right;"><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <!-- cookie alert -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#343c66",
+                    "text": "#cfcfe8"
+                },
+                "button": {
+                    "background": "#f71559"
+                }
+            },
+            "position": "bottom-left",
+            "content": {
+                "message": "Unsere Webseiten nutzen Cookies, um unseren Service in voller Funktionalität bereitzustellen.",
+                "dismiss": "Okay!",
+                "link": "More!",
+                "href": "spm-gruppe.de/datenschutz"
+            }
+        });
+    </script>
+
+</body>
+
+</html>
